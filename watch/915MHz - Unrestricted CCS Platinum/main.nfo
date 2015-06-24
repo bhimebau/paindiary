@@ -5,6 +5,11 @@ Making idle_loop a function synonym of to_lpm
 		======File-level Analysis Summary======
 
 
+extern void bryces_function() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
 extern void display_update() is called from 1 sites in this file.
     It appears to be inlineable (size = 199 units)
     It has 3 non-trivial scope blocks nested 3 deep.
@@ -226,5 +231,12 @@ extern int main() is called from 0 sites in this file.
 	wakeup_event() (1 times)
 	process_requests() (1 times)
 	display_update() (1 times)
+
+==============================================================================
+
+extern void bryces_function() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
 
 == END OF INFO OUTPUT==

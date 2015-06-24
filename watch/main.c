@@ -171,9 +171,11 @@ int main(void)
 	// Here is a comment to test build.
 	// Init MCU
     init_application();
+    bryces_function();
 
     // Assign initial value to global variables
     init_global_variables();
+
 
     // Main control loop: wait in low power mode until some event needs to be processed
     while (1)
@@ -193,7 +195,7 @@ int main(void)
         if (display.all_flags)
             display_update();
     }
-    bryces_function();
+
 }
 
 // *************************************************************************************************

@@ -5,7 +5,7 @@ Making idle_loop a function synonym of to_lpm
 		======File-level Analysis Summary======
 
 
-extern void bryces_function() is called from 0 sites in this file.
+extern void bryces_function() is called from 1 sites in this file.
     It has 3 non-trivial scope blocks nested 3 deep.
     It calls these functions:
 	<NONE>
@@ -70,6 +70,7 @@ extern int main() is called from 0 sites in this file.
 	wakeup_event() (1 times)
 	idle_loop() (1 times)
 	init_global_variables() (1 times)
+	bryces_function() (1 times)
 	init_application() (1 times)
 
 extern void process_requests() is called from 1 sites in this file.
@@ -198,6 +199,13 @@ extern void init_application() is called from 1 sites in this file.
 
 ==============================================================================
 
+extern void bryces_function() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
 extern void init_global_variables() is called from 1 sites in this file.
     It appears to be inlineable (size = 46 units)
     It has 3 non-trivial scope blocks nested 3 deep.
@@ -226,17 +234,11 @@ extern int main() is called from 0 sites in this file.
     It has 3 non-trivial scope blocks nested 3 deep.
     It calls these functions:
 	init_application() (1 times)
+	bryces_function() (1 times)
 	init_global_variables() (1 times)
 	idle_loop() (1 times)
 	wakeup_event() (1 times)
 	process_requests() (1 times)
 	display_update() (1 times)
-
-==============================================================================
-
-extern void bryces_function() is called from 0 sites in this file.
-    It has 3 non-trivial scope blocks nested 3 deep.
-    It calls these functions:
-	<NONE>
 
 == END OF INFO OUTPUT==
